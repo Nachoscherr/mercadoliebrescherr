@@ -1,0 +1,263 @@
+
+
+.reds{
+    font-size: 20px;
+}
+.redlink{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.redlink:hover{
+    color: black;
+
+
+}
+
+.allfoot{
+    color: black;
+   border-color: gray;
+   border-style: solid;
+   border-width: 0 1px 0 0;
+font-family: Arial, Helvetica, sans-serif;
+   
+   
+}
+
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px !important;
+    font-weight: 100 !important;
+}
+
+.regismin {
+    background-color: #f8c322 ;
+}
+
+.register-button{
+    display: flex;
+    background-color: #fbbc02;
+    border-radius: 16px;
+    }
+.logo-form{
+height: 110px;
+padding-bottom: 50px;
+
+}
+.push {
+    display: flex;
+    
+}
+.formulary{
+   
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+ height: 400px;
+ border-radius: 16px;
+ font-size: 17px;
+ font-family: 'DM Sans', sans-serif;
+ 
+}
+
+.backg{
+display: flex;
+align-items: center;
+flex-direction: column;
+
+text-align: justify;
+
+    
+}
+
+
+.separate{
+    display: flex;
+    justify-content: space-around;
+}
+.botext {
+    
+    height: 40px;
+    width: 90px;
+    
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+}
+
+.propiedades {
+   
+    font-size: 18px;
+
+   
+}
+.propiedades:hover {
+text-decoration: underline;
+
+
+}
+.cambio {
+    display: block;
+    height: 310px;
+    margin: 0 auto; 
+    
+}
+.second{
+   display: flex !important;
+   align-items: flex-end !important;
+}
+
+.cont{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ height: 470px;
+ width: 100%;
+
+}
+.card {
+
+    display: flex !important;
+    width: 350px !important;
+    height: auto !important;
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    
+    border-color: black;
+    cursor: pointer;
+
+}
+.card:hover {
+    box-shadow: 30px 30px 50px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.all-p{   
+display: flex;
+
+transition-property: all;
+transition-duration: 1s;
+transition-timing-function: ease-in;
+color: #222;
+}
+.all-p:hover{
+    
+
+box-shadow: 0 0 5px #222;
+border-radius: 5px;
+color: #222;
+}
+.ingt{
+display: inline;
+
+transition-property: font-size;
+transition-duration: 1s;
+transition-timing-function: ease-in;
+color: #222;
+}
+
+.ingt:hover{
+    box-shadow: 0 0 5px #222;
+    border-radius: 5px;
+    color: #222;
+    
+}
+.int{
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.crear:hover {
+box-shadow: 0 0 5px #222;
+border-radius: 5px;
+color: #222;
+}
+
+.crear {
+display: flex;
+transition-property: all;
+transition-duration: 1s;
+transition-timing-function: ease-in;
+color: #222;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+header  {
+ display: flex;
+height: 220px;
+justify-content: space-between;
+background-color: #fbbc02;
+align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center; 
+   
+}
+.logo img {
+    height: 60px;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+nav a {
+    font-weight: 400;
+    padding-right: 00px;
+}
+.buscador{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 520px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.opinion{
+padding-right: 100px;
+    font-weight: 400;
+    padding-left: 50px;
+}
+.ofertas {
+    text-align: center;
+    font-size: 30px;
+}
+.publicidad {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.logo-buscador {
+    margin-left: 1160px;
+    position: absolute;
+    font-size: 25px;
+    color: gray;
+}
+.containerr{
+    background: black;
+    min-height: 200px;
+    min-width: 800px;
+    max-width: 1024px;
+}
+footer{
+    background-color: gainsboro;
+    position: absolute;
+    bottom: 0;
+   width: 100%;
+   margin-top: auto;
+}
+body{
+    position: relative;
+    padding-bottom: 700px;
+    min-height: 100vh;
+}
